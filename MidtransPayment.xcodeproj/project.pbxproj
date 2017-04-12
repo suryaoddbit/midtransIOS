@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27F96EDA1E9DC1D3007F7569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F96ED91E9DC1D3007F7569 /* AppDelegate.swift */; };
+		27F96EDC1E9DC1D3007F7569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F96EDB1E9DC1D3007F7569 /* ViewController.swift */; };
+		27F96EDF1E9DC1D3007F7569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F96EDD1E9DC1D3007F7569 /* Main.storyboard */; };
+		27F96EE11E9DC1D3007F7569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F96EE01E9DC1D3007F7569 /* Assets.xcassets */; };
+		27F96EE41E9DC1D3007F7569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F96EE21E9DC1D3007F7569 /* LaunchScreen.storyboard */; };
+		27F96EEF1E9DC1D3007F7569 /* MidtransPaymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F96EEE1E9DC1D3007F7569 /* MidtransPaymentTests.swift */; };
+		27F96EFA1E9DC1D3007F7569 /* MidtransPaymentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F96EF91E9DC1D3007F7569 /* MidtransPaymentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27F96EEB1E9DC1D3007F7569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27F96ECE1E9DC1D3007F7569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27F96ED51E9DC1D3007F7569;
+			remoteInfo = MidtransPayment;
+		};
+		27F96EF61E9DC1D3007F7569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27F96ECE1E9DC1D3007F7569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27F96ED51E9DC1D3007F7569;
+			remoteInfo = MidtransPayment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27F96ED61E9DC1D3007F7569 /* MidtransPayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidtransPayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F96ED91E9DC1D3007F7569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27F96EDB1E9DC1D3007F7569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27F96EDE1E9DC1D3007F7569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27F96EE01E9DC1D3007F7569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27F96EE31E9DC1D3007F7569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27F96EE51E9DC1D3007F7569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F96EEA1E9DC1D3007F7569 /* MidtransPaymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidtransPaymentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F96EEE1E9DC1D3007F7569 /* MidtransPaymentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtransPaymentTests.swift; sourceTree = "<group>"; };
+		27F96EF01E9DC1D3007F7569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F96EF51E9DC1D3007F7569 /* MidtransPaymentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidtransPaymentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F96EF91E9DC1D3007F7569 /* MidtransPaymentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtransPaymentUITests.swift; sourceTree = "<group>"; };
+		27F96EFB1E9DC1D3007F7569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27F96ED31E9DC1D3007F7569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F96EE71E9DC1D3007F7569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F96EF21E9DC1D3007F7569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27F96ECD1E9DC1D3007F7569 = {
+			isa = PBXGroup;
+			children = (
+				27F96ED81E9DC1D3007F7569 /* MidtransPayment */,
+				27F96EED1E9DC1D3007F7569 /* MidtransPaymentTests */,
+				27F96EF81E9DC1D3007F7569 /* MidtransPaymentUITests */,
+				27F96ED71E9DC1D3007F7569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27F96ED71E9DC1D3007F7569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27F96ED61E9DC1D3007F7569 /* MidtransPayment.app */,
+				27F96EEA1E9DC1D3007F7569 /* MidtransPaymentTests.xctest */,
+				27F96EF51E9DC1D3007F7569 /* MidtransPaymentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27F96ED81E9DC1D3007F7569 /* MidtransPayment */ = {
+			isa = PBXGroup;
+			children = (
+				27F96ED91E9DC1D3007F7569 /* AppDelegate.swift */,
+				27F96EDB1E9DC1D3007F7569 /* ViewController.swift */,
+				27F96EDD1E9DC1D3007F7569 /* Main.storyboard */,
+				27F96EE01E9DC1D3007F7569 /* Assets.xcassets */,
+				27F96EE21E9DC1D3007F7569 /* LaunchScreen.storyboard */,
+				27F96EE51E9DC1D3007F7569 /* Info.plist */,
+			);
+			path = MidtransPayment;
+			sourceTree = "<group>";
+		};
+		27F96EED1E9DC1D3007F7569 /* MidtransPaymentTests */ = {
+			isa = PBXGroup;
+			children = (
+				27F96EEE1E9DC1D3007F7569 /* MidtransPaymentTests.swift */,
+				27F96EF01E9DC1D3007F7569 /* Info.plist */,
+			);
+			path = MidtransPaymentTests;
+			sourceTree = "<group>";
+		};
+		27F96EF81E9DC1D3007F7569 /* MidtransPaymentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27F96EF91E9DC1D3007F7569 /* MidtransPaymentUITests.swift */,
+				27F96EFB1E9DC1D3007F7569 /* Info.plist */,
+			);
+			path = MidtransPaymentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27F96ED51E9DC1D3007F7569 /* MidtransPayment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F96EFE1E9DC1D3007F7569 /* Build configuration list for PBXNativeTarget "MidtransPayment" */;
+			buildPhases = (
+				27F96ED21E9DC1D3007F7569 /* Sources */,
+				27F96ED31E9DC1D3007F7569 /* Frameworks */,
+				27F96ED41E9DC1D3007F7569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MidtransPayment;
+			productName = MidtransPayment;
+			productReference = 27F96ED61E9DC1D3007F7569 /* MidtransPayment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27F96EE91E9DC1D3007F7569 /* MidtransPaymentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F96F011E9DC1D3007F7569 /* Build configuration list for PBXNativeTarget "MidtransPaymentTests" */;
+			buildPhases = (
+				27F96EE61E9DC1D3007F7569 /* Sources */,
+				27F96EE71E9DC1D3007F7569 /* Frameworks */,
+				27F96EE81E9DC1D3007F7569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27F96EEC1E9DC1D3007F7569 /* PBXTargetDependency */,
+			);
+			name = MidtransPaymentTests;
+			productName = MidtransPaymentTests;
+			productReference = 27F96EEA1E9DC1D3007F7569 /* MidtransPaymentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27F96EF41E9DC1D3007F7569 /* MidtransPaymentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F96F041E9DC1D3007F7569 /* Build configuration list for PBXNativeTarget "MidtransPaymentUITests" */;
+			buildPhases = (
+				27F96EF11E9DC1D3007F7569 /* Sources */,
+				27F96EF21E9DC1D3007F7569 /* Frameworks */,
+				27F96EF31E9DC1D3007F7569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27F96EF71E9DC1D3007F7569 /* PBXTargetDependency */,
+			);
+			name = MidtransPaymentUITests;
+			productName = MidtransPaymentUITests;
+			productReference = 27F96EF51E9DC1D3007F7569 /* MidtransPaymentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27F96ECE1E9DC1D3007F7569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ODDBIT;
+				TargetAttributes = {
+					27F96ED51E9DC1D3007F7569 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X5UV2FL6FL;
+						ProvisioningStyle = Automatic;
+					};
+					27F96EE91E9DC1D3007F7569 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X5UV2FL6FL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27F96ED51E9DC1D3007F7569;
+					};
+					27F96EF41E9DC1D3007F7569 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X5UV2FL6FL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27F96ED51E9DC1D3007F7569;
+					};
+				};
+			};
+			buildConfigurationList = 27F96ED11E9DC1D3007F7569 /* Build configuration list for PBXProject "MidtransPayment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27F96ECD1E9DC1D3007F7569;
+			productRefGroup = 27F96ED71E9DC1D3007F7569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27F96ED51E9DC1D3007F7569 /* MidtransPayment */,
+				27F96EE91E9DC1D3007F7569 /* MidtransPaymentTests */,
+				27F96EF41E9DC1D3007F7569 /* MidtransPaymentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27F96ED41E9DC1D3007F7569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F96EE41E9DC1D3007F7569 /* LaunchScreen.storyboard in Resources */,
+				27F96EE11E9DC1D3007F7569 /* Assets.xcassets in Resources */,
+				27F96EDF1E9DC1D3007F7569 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F96EE81E9DC1D3007F7569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F96EF31E9DC1D3007F7569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27F96ED21E9DC1D3007F7569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F96EDC1E9DC1D3007F7569 /* ViewController.swift in Sources */,
+				27F96EDA1E9DC1D3007F7569 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F96EE61E9DC1D3007F7569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F96EEF1E9DC1D3007F7569 /* MidtransPaymentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F96EF11E9DC1D3007F7569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F96EFA1E9DC1D3007F7569 /* MidtransPaymentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27F96EEC1E9DC1D3007F7569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27F96ED51E9DC1D3007F7569 /* MidtransPayment */;
+			targetProxy = 27F96EEB1E9DC1D3007F7569 /* PBXContainerItemProxy */;
+		};
+		27F96EF71E9DC1D3007F7569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27F96ED51E9DC1D3007F7569 /* MidtransPayment */;
+			targetProxy = 27F96EF61E9DC1D3007F7569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27F96EDD1E9DC1D3007F7569 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F96EDE1E9DC1D3007F7569 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27F96EE21E9DC1D3007F7569 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F96EE31E9DC1D3007F7569 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27F96EFC1E9DC1D3007F7569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27F96EFD1E9DC1D3007F7569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27F96EFF1E9DC1D3007F7569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X5UV2FL6FL;
+				INFOPLIST_FILE = MidtransPayment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oddbit.MidtransPayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		27F96F001E9DC1D3007F7569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X5UV2FL6FL;
+				INFOPLIST_FILE = MidtransPayment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oddbit.MidtransPayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		27F96F021E9DC1D3007F7569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X5UV2FL6FL;
+				INFOPLIST_FILE = MidtransPaymentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oddbit.MidtransPaymentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MidtransPayment.app/MidtransPayment";
+			};
+			name = Debug;
+		};
+		27F96F031E9DC1D3007F7569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X5UV2FL6FL;
+				INFOPLIST_FILE = MidtransPaymentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oddbit.MidtransPaymentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MidtransPayment.app/MidtransPayment";
+			};
+			name = Release;
+		};
+		27F96F051E9DC1D3007F7569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X5UV2FL6FL;
+				INFOPLIST_FILE = MidtransPaymentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oddbit.MidtransPaymentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MidtransPayment;
+			};
+			name = Debug;
+		};
+		27F96F061E9DC1D3007F7569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X5UV2FL6FL;
+				INFOPLIST_FILE = MidtransPaymentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oddbit.MidtransPaymentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MidtransPayment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27F96ED11E9DC1D3007F7569 /* Build configuration list for PBXProject "MidtransPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F96EFC1E9DC1D3007F7569 /* Debug */,
+				27F96EFD1E9DC1D3007F7569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F96EFE1E9DC1D3007F7569 /* Build configuration list for PBXNativeTarget "MidtransPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F96EFF1E9DC1D3007F7569 /* Debug */,
+				27F96F001E9DC1D3007F7569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27F96F011E9DC1D3007F7569 /* Build configuration list for PBXNativeTarget "MidtransPaymentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F96F021E9DC1D3007F7569 /* Debug */,
+				27F96F031E9DC1D3007F7569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27F96F041E9DC1D3007F7569 /* Build configuration list for PBXNativeTarget "MidtransPaymentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F96F051E9DC1D3007F7569 /* Debug */,
+				27F96F061E9DC1D3007F7569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27F96ECE1E9DC1D3007F7569 /* Project object */;
+}
