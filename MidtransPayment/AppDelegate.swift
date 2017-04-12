@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MidtransKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        MidtransConfig.shared().setClientKey("VT-client-24zV4V0saj2O7zhs", environment: .sandbox, merchantServerURL: "https://demo-merchant-server.herokuapp.com")
         return true
     }
 

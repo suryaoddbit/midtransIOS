@@ -14,6 +14,9 @@
 		27F96EE41E9DC1D3007F7569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F96EE21E9DC1D3007F7569 /* LaunchScreen.storyboard */; };
 		27F96EEF1E9DC1D3007F7569 /* MidtransPaymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F96EEE1E9DC1D3007F7569 /* MidtransPaymentTests.swift */; };
 		27F96EFA1E9DC1D3007F7569 /* MidtransPaymentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F96EF91E9DC1D3007F7569 /* MidtransPaymentUITests.swift */; };
+		4C958DAD83A563C531DE119D /* Pods_MidtransPaymentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07CC394E383FF9C8EE520C8 /* Pods_MidtransPaymentTests.framework */; };
+		5CE544E97387DA503BE9E07F /* Pods_MidtransPayment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B353B964367ED421004571CF /* Pods_MidtransPayment.framework */; };
+		99971C0D85A9862FCF4B2EF7 /* Pods_MidtransPaymentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC5D11DF2B6E60F6D96B8C /* Pods_MidtransPaymentUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00D3E1571E1316F6FC458344 /* Pods-MidtransPaymentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidtransPaymentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MidtransPaymentTests/Pods-MidtransPaymentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		09A3908858EFD04C472F57F9 /* Pods-MidtransPaymentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidtransPaymentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MidtransPaymentTests/Pods-MidtransPaymentTests.release.xcconfig"; sourceTree = "<group>"; };
+		26481B70E28C7662B539426C /* Pods-MidtransPayment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidtransPayment.release.xcconfig"; path = "Pods/Target Support Files/Pods-MidtransPayment/Pods-MidtransPayment.release.xcconfig"; sourceTree = "<group>"; };
 		27F96ED61E9DC1D3007F7569 /* MidtransPayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidtransPayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F96ED91E9DC1D3007F7569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27F96EDB1E9DC1D3007F7569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		27F96EF51E9DC1D3007F7569 /* MidtransPaymentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidtransPaymentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F96EF91E9DC1D3007F7569 /* MidtransPaymentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtransPaymentUITests.swift; sourceTree = "<group>"; };
 		27F96EFB1E9DC1D3007F7569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CC5D11DF2B6E60F6D96B8C /* Pods_MidtransPaymentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MidtransPaymentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C99BDB5400BA4EC0FBA9F88 /* Pods-MidtransPaymentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidtransPaymentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MidtransPaymentUITests/Pods-MidtransPaymentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B353B964367ED421004571CF /* Pods_MidtransPayment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MidtransPayment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07CC394E383FF9C8EE520C8 /* Pods_MidtransPaymentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MidtransPaymentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3183C381BFB838C531C1E7 /* Pods-MidtransPayment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidtransPayment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MidtransPayment/Pods-MidtransPayment.debug.xcconfig"; sourceTree = "<group>"; };
+		FFE583FD9575D9A17F2BEED6 /* Pods-MidtransPaymentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidtransPaymentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MidtransPaymentUITests/Pods-MidtransPaymentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE544E97387DA503BE9E07F /* Pods_MidtransPayment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C958DAD83A563C531DE119D /* Pods_MidtransPaymentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99971C0D85A9862FCF4B2EF7 /* Pods_MidtransPaymentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				27F96EED1E9DC1D3007F7569 /* MidtransPaymentTests */,
 				27F96EF81E9DC1D3007F7569 /* MidtransPaymentUITests */,
 				27F96ED71E9DC1D3007F7569 /* Products */,
+				3F7AC9EAEFC090C7F3B13F94 /* Pods */,
+				3D56706272DFFE7E040CFD11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = MidtransPaymentUITests;
 			sourceTree = "<group>";
 		};
+		3D56706272DFFE7E040CFD11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B353B964367ED421004571CF /* Pods_MidtransPayment.framework */,
+				D07CC394E383FF9C8EE520C8 /* Pods_MidtransPaymentTests.framework */,
+				37CC5D11DF2B6E60F6D96B8C /* Pods_MidtransPaymentUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F7AC9EAEFC090C7F3B13F94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE3183C381BFB838C531C1E7 /* Pods-MidtransPayment.debug.xcconfig */,
+				26481B70E28C7662B539426C /* Pods-MidtransPayment.release.xcconfig */,
+				00D3E1571E1316F6FC458344 /* Pods-MidtransPaymentTests.debug.xcconfig */,
+				09A3908858EFD04C472F57F9 /* Pods-MidtransPaymentTests.release.xcconfig */,
+				FFE583FD9575D9A17F2BEED6 /* Pods-MidtransPaymentUITests.debug.xcconfig */,
+				7C99BDB5400BA4EC0FBA9F88 /* Pods-MidtransPaymentUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27F96EFE1E9DC1D3007F7569 /* Build configuration list for PBXNativeTarget "MidtransPayment" */;
 			buildPhases = (
+				3A66371BE28750E88F7BC0F9 /* [CP] Check Pods Manifest.lock */,
 				27F96ED21E9DC1D3007F7569 /* Sources */,
 				27F96ED31E9DC1D3007F7569 /* Frameworks */,
 				27F96ED41E9DC1D3007F7569 /* Resources */,
+				063FD4A89AA56DE783A23CDC /* [CP] Embed Pods Frameworks */,
+				5F91F4D7A5498BE7C1B1CB6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27F96F011E9DC1D3007F7569 /* Build configuration list for PBXNativeTarget "MidtransPaymentTests" */;
 			buildPhases = (
+				8A967BE7CA95B9A13B6F62E9 /* [CP] Check Pods Manifest.lock */,
 				27F96EE61E9DC1D3007F7569 /* Sources */,
 				27F96EE71E9DC1D3007F7569 /* Frameworks */,
 				27F96EE81E9DC1D3007F7569 /* Resources */,
+				840CDEF8B3434E56AD32059C /* [CP] Embed Pods Frameworks */,
+				6EDCFE47C4A0ADF100F47DEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27F96F041E9DC1D3007F7569 /* Build configuration list for PBXNativeTarget "MidtransPaymentUITests" */;
 			buildPhases = (
+				18DE2F0848FADDCF4C17AA48 /* [CP] Check Pods Manifest.lock */,
 				27F96EF11E9DC1D3007F7569 /* Sources */,
 				27F96EF21E9DC1D3007F7569 /* Frameworks */,
 				27F96EF31E9DC1D3007F7569 /* Resources */,
+				850C0E6E13487E4BC40A02A8 /* [CP] Embed Pods Frameworks */,
+				F94C2E32FF66A282E7E711F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		063FD4A89AA56DE783A23CDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MidtransPayment/Pods-MidtransPayment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18DE2F0848FADDCF4C17AA48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A66371BE28750E88F7BC0F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F91F4D7A5498BE7C1B1CB6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MidtransPayment/Pods-MidtransPayment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EDCFE47C4A0ADF100F47DEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MidtransPaymentTests/Pods-MidtransPaymentTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		840CDEF8B3434E56AD32059C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MidtransPaymentTests/Pods-MidtransPaymentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		850C0E6E13487E4BC40A02A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MidtransPaymentUITests/Pods-MidtransPaymentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A967BE7CA95B9A13B6F62E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F94C2E32FF66A282E7E711F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MidtransPaymentUITests/Pods-MidtransPaymentUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27F96ED21E9DC1D3007F7569 /* Sources */ = {
@@ -413,6 +600,7 @@
 		};
 		27F96EFF1E9DC1D3007F7569 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3183C381BFB838C531C1E7 /* Pods-MidtransPayment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X5UV2FL6FL;
@@ -426,6 +614,7 @@
 		};
 		27F96F001E9DC1D3007F7569 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26481B70E28C7662B539426C /* Pods-MidtransPayment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X5UV2FL6FL;
@@ -439,6 +628,7 @@
 		};
 		27F96F021E9DC1D3007F7569 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D3E1571E1316F6FC458344 /* Pods-MidtransPaymentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		27F96F031E9DC1D3007F7569 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A3908858EFD04C472F57F9 /* Pods-MidtransPaymentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +660,7 @@
 		};
 		27F96F051E9DC1D3007F7569 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE583FD9575D9A17F2BEED6 /* Pods-MidtransPaymentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = X5UV2FL6FL;
@@ -483,6 +675,7 @@
 		};
 		27F96F061E9DC1D3007F7569 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C99BDB5400BA4EC0FBA9F88 /* Pods-MidtransPaymentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = X5UV2FL6FL;
